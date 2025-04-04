@@ -1,6 +1,6 @@
 /// @description 여기에 설명 삽입
 // 이 에디터에 코드를 작성할 수 있습니다
-draw_set_valign(fa_middle)
-draw_set_font(fnt_font);
-draw_text(x,y,name);
-
+if(obj_data.page<ds_grid_height(obj_data.data)/10)
+{
+	obj_data.page--;
+}

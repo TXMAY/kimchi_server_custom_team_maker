@@ -3,5 +3,5 @@
 user_name="";
 selected=false;
 
-var tmp=instance_create_depth(x+100,y,0,obj_select_button);
+var tmp=instance_create_depth(x+300,y,0,obj_select_button);
 tmp.parent=self;
